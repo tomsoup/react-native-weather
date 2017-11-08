@@ -5,10 +5,11 @@ class WeatherDetail extends Component {
 
 
   render() {
+
     return (
       <View>
         <Text style={{ color: 'red' }}>
-          It is now 40c in New York
+          {`${this.props.temp} ${this.props.location}`}
         </Text>
       </View>
     );
