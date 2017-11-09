@@ -1,19 +1,12 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View, TextInput} from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
 
-class WeatherDetail extends Component {
-
-
-  render() {
-
-    return (
-      <View>
-        <Text style={{ color: 'red' }}>
-          {`${this.props.temp} ${this.props.location}`}
-        </Text>
-      </View>
-    );
-  }
-}
-
-export default WeatherDetail;
+export const WeatherDetail = ({ temp, location }) => {
+  return (
+    <View>
+      <Text style={{ color: 'red' }}>
+        {`${temp} ${location}`}
+      </Text>
+    </View>
+  );
+};
