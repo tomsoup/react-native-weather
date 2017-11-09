@@ -1,39 +1,40 @@
 {
   "coord": {
-    "lon": -0.13,
-    "lat": 51.51
+    "lon": -122.08,
+    "lat": 37.39
   },
   "weather": [{
-    "id": 800,
-    "main": "Clear",
-    "description": "clear sky",
-    "icon": "02n"
+    "id": 500,
+    "main": "Rain",
+    "description": "light rain",
+    "icon": "10n"
   }],
   "base": "stations",
   "main": {
-    "temp": 43.32,
+    "temp": 277.14,
     "pressure": 1025,
-    "humidity": 70,
-    "temp_min": 39.2,
-    "temp_max": 46.4
+    "humidity": 86,
+    "temp_min": 275.15,
+    "temp_max": 279.15
   },
-  "visibility": 10000,
+  "visibility": 16093,
   "wind": {
-    "speed": 3.36
+    "speed": 1.67,
+    "deg": 53.0005
   },
   "clouds": {
-    "all": 8
+    "all": 1
   },
-  "dt": 1510165200,
+  "dt": 1485788160,
   "sys": {
     "type": 1,
-    "id": 5091,
-    "message": 0.1795,
-    "country": "GB",
-    "sunrise": 1510124876,
-    "sunset": 1510158001
+    "id": 471,
+    "message": 0.0116,
+    "country": "US",
+    "sunrise": 1485789140,
+    "sunset": 1485826300
   },
-  "id": 2643743,
-  "name": "London",
+  "id": 5375480,
+  "name": "Mountain View",
   "cod": 200
 }

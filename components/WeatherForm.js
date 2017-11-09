@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TextInput, Button} from 'react-native';
+import { View, TextInput, Button } from 'react-native';
 
 class WeatherForm extends Component {
   constructor(props) {
@@ -11,21 +11,22 @@ class WeatherForm extends Component {
     const { location } = this.state;
 
     if (location.length > 0) {
-      this.setState({ location: '' })
+      this.setState({ location: '' });
       this.props.onSearch(location);
     }
   }
 
   render() {
+    const { containerStyle } = styles;
     return (
-      <View>
+      <View style={containerStyle}>
         <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
-        onChangeText={( location ) => this.setState({ location })}
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1, width: 300, borderRadius: 30, paddingLeft: 10, backgroundColor: '#ffffff' }}
+        onChangeText={(location) => this.setState({ location })}
         value={this.state.location}
-      />
+        />
       <Button
-        onPress={ this.onFormSubmit }
+        onPress={this.onFormSubmit}
         title="Submit"
         color="#841584"
         accessibilityLabel="Click to search weather"
@@ -37,7 +38,10 @@ class WeatherForm extends Component {
   }
 }
 
-
-
+const styles = {
+  containerStyle: {
+    paddingTop: 20
+  }
+};
 
 export default WeatherForm;
