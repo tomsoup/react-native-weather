@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { OPEN_MAP_API } from 'react-native-dotenv';
-const OPEN_WEATHER_URL = `http://api.openweathermap.org/data/2.5/weather?appid=${ OPEN_MAP_API }`;
+
+const OPEN_WEATHER_URL = `http://api.openweathermap.org/data/2.5/weather?appid=15a6d59e073249c647e8bdaa88b729c4`;
 
 
 export const getTemp = async (zip) => {
