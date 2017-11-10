@@ -5,7 +5,7 @@ The completed project can be view using [Expo](https://expo.io/@tomsoup/weather-
 
 Below is an image of the completed app.
 
-![image](./completed.png)
+![image](./mockup/completed.png)
 
 The app is responsible for taking the user input (zip code) and make GET request to the OpenWeatherMap endpoint and display the temperature, and weather condition to the user.  The user can choose to display the temperature in Celcius or Fahrenheit upon pressing the metric unit icon.
 
