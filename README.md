@@ -3,9 +3,9 @@ This react-native weather app is inspired by [FreeCodeCamp Show the Local Weathe
 
 The completed project can be view using [Expo](https://expo.io/@tomsoup/weather-app "Link to Expo") and source code is available on   [Github](https://github.com/tomsoup/react-native-weather "Github")
 
-Below is a sketch of the app that we are going to build.
+Below is an image of the completed app.
 
-![image](https://image.ibb.co/jQUcHb/New_Mockup_1.png)
+![image](./completed.png)
 
 The app is responsible for taking the user input (zip code) and make GET request to the OpenWeatherMap endpoint and display the temperature, and weather condition to the user.  The user can choose to display the temperature in Celcius or Fahrenheit upon pressing the metric unit icon.
 
